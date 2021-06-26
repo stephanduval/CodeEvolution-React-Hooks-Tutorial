@@ -1,4 +1,4 @@
-import react { Component } from 'react'
+import React, { Component } from 'react'
 
 class ClassCounter extends Component {
     constructor(props) {
@@ -10,8 +10,10 @@ class ClassCounter extends Component {
     }
 
     incrementCount = () => {
-        this.setState({
-            count: this.state.count + 1
+        this.setState(prevState => {
+            return {
+            count: prevState.count + 1
+            }
         })
     }
 
@@ -19,7 +21,7 @@ class ClassCounter extends Component {
         return (
             <div>
             <button onClick={this.incrementCount}>
-            Count is: {this.state.count}
+            Count using props is: {this.state.count}
             </button>
             </div>
         )
