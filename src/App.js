@@ -8,6 +8,7 @@ import HookCounterFour from './components/HookCounterFour';
 import UseEffectHookCounteroldClassVersion from './components/UseEffectHookCounteroldClassVersion';
 import UseEffectHookFunctionalComponent from './components/UseEffectHookFunctionalComponent';
 import ConditionalUseEffectCounterOldClassVersion from './components/ConditionalUseEffectCounterOldClassVersion'
+import ConditionalUseEffectCounterHook from './components/ConditionalUseEffectCounterHook'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <UseEffectHookCounteroldClassVersion />
       <UseEffectHookFunctionalComponent />
       <ConditionalUseEffectCounterOldClassVersion />
+      <ConditionalUseEffectCounterHook />
     </div>
   );
 }
