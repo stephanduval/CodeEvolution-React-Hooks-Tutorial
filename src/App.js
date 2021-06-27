@@ -5,6 +5,7 @@ import HookCounter from './components/HookCounter.js'
 import HookCounterTwo from './components/HookCounter2.js';
 import HookCounterThree from './components/HookCounterThree.js';
 import HookCounterFour from './components/HookCounterFour';
+import ClassUseEffectHookCounter from '/.components/ClassUseEffectHookCounter';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HookCounterTwo />
       <HookCounterThree />
       <HookCounterFour />
+      <ClassUseEffectHookCounter />
     </div>
   );
 }
