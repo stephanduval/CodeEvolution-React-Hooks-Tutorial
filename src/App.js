@@ -5,7 +5,9 @@ import HookCounter from './components/HookCounter.js'
 import HookCounterTwo from './components/HookCounter2.js';
 import HookCounterThree from './components/HookCounterThree.js';
 import HookCounterFour from './components/HookCounterFour';
-import ClassUseEffectHookCounter from '/.components/ClassUseEffectHookCounter';
+import UseEffectHookCounteroldClassVersion from './components/UseEffectHookCounteroldClassVersion';
+import UseEffectHookFunctionalComponent from './components/UseEffectHookFunctionalComponent';
+import ConditionalUseEffectCounterOldClassVersion from './components/ConditionalUseEffectCounterOldClassVersion'
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <HookCounterTwo />
       <HookCounterThree />
       <HookCounterFour />
-      <ClassUseEffectHookCounter />
+      <UseEffectHookCounteroldClassVersion />
+      <UseEffectHookFunctionalComponent />
+      <ConditionalUseEffectCounterOldClassVersion />
     </div>
   );
 }
