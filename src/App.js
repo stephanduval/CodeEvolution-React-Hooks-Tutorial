@@ -13,6 +13,7 @@ import ClassMouse from './components/SingleRunEffectUsingClass';
 import SingleRunEffectUsingHooks from './components/SingleRunEffectUsingHooks';
 import MouseContainer from './components/ComponentUnmountWithHooks';
 import IntervalClassCounter from './components/IntervalClassCounter'
+import IntervalHookCounter from './components/IntervalHookCounter';
 
 
 function App() {
@@ -29,9 +30,10 @@ function App() {
       <ConditionalUseEffectCounterOldClassVersion />
       <ConditionalUseEffectCounterHook />
       <ClassMouse />
-      <SingleRunEffectUsingHooks />J
+      <SingleRunEffectUsingHooks />
       <MouseContainer />
       <IntervalClassCounter />
+      <IntervalHookCounter />
       
     </div>
   );
